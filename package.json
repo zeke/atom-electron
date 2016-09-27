@@ -1,0 +1,29 @@
+{
+  "name": "atom-electron",
+  "version": "1.0.0",
+  "description": "Electron API documentation reference",
+  "main": "index.js",
+  "scripts": {
+    "build": "node bin/build.js > lib/apis.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeke/atom-electron.git"
+  },
+  "keywords": [
+    "atom",
+    "electron",
+    "api",
+    "documentation",
+    "reference"
+  ],
+  "author": "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeke/atom-electron/issues"
+  },
+  "homepage": "https://github.com/zeke/atom-electron#readme",
+  "devDependencies": {
+    "electron-apis": "^2.0.2"
+  }
+}
